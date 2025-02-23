@@ -13,7 +13,7 @@ o	Subject (these are labels attached to the videos) (en)
 o	Location (en)
 o	Date
 
-We employed BERTtopic, SentenceTransformer, pandas, VisualRepresentation and BeautifulSoup packages on Python.
+We employed [BERTtopic](https://maartengr.github.io/BERTopic/getting_started/multimodal/multimodal.html), SentenceTransformer, pandas, VisualRepresentation and BeautifulSoup packages on Python.
 
 We run the BERTopic multimodal clustering algorithm to find images that are similar to each other, the idea is to use these clustered images to find relevant film parts so that we can make a trailer or a short movie related to migration. 
 o	We first did an image object extraction to find what are the objects in these extracted images. 
